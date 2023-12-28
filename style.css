@@ -22,7 +22,7 @@ h3 {
 }
 body {
     
-    background-image: url(assets/MasajesSosiegoFondo.png); 
+    background-image: url(./assets/MasajesSosiegoFondo.png); 
     display: flex;
     flex-direction: column;
     min-height: 100%;
