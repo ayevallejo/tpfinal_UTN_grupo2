@@ -220,7 +220,7 @@ main {
     margin: 1px;
     box-sizing: border-box;
     position: fixed;
-    bottom: 40px;
+    bottom: 80px;
     right: 25px;
 } 
 .botonig > a > img {
@@ -229,7 +229,7 @@ main {
     margin: -1px;
     box-sizing: border-box;
     position:fixed;
-    bottom: 100px;
+    bottom: 150px;
     right: 28px;
     
  }
