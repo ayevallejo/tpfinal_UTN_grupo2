@@ -47,4 +47,8 @@ showStep(currentStep);
 function mostrarSeleccion(){
     let select = document.getElementById("selector");
     console.log(select.value)
+        
 }
+
+
+

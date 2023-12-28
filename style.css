@@ -22,7 +22,7 @@ h3 {
 }
 body {
     
-    background-image: url(assent/MasajesSosiegoFondo.png); 
+    background-image: url(assets/MasajesSosiegoFondo.png); 
     display: flex;
     flex-direction: column;
     min-height: 100%;
@@ -112,7 +112,7 @@ main {
     width: 100%;
     text-align: center;
     color: #000000; 
-    background-color: #E9EBF8;
+    background-color: #e8e9ef;
   
 
 
@@ -145,7 +145,7 @@ main {
     width: 100%;
     text-align: center;
     color: #000000; 
-    background-color: #E9EBF8;
+    background-color: #e8e9ef;
         
 }
 
@@ -197,7 +197,7 @@ main {
     width: 100%;
     text-align: center;
     color: #000000; 
-    background-color: #E9EBF8;
+    background-color:#e8e9ef;
 
 } 
 
@@ -274,6 +274,7 @@ input{
 footer > ul > li {
     list-style-type: none;
     display: block;
+        
    }
    footer > ul > li > img {
     height: 20px;
@@ -282,12 +283,21 @@ footer > ul > li {
     background-color: black;
     color: #E9EBF8;
     text-align:center;
-    position: relative;
+    text-decoration: none;   
+    position:relative;
     width: 100%;
-    margin-top: 100%;
-    text-align: center;
-    bottom:0;
-    z-index: 1;
+    bottom: -120px;
+    padding-top: 8px;
    }
 
-   
+   .btn-primary {
+    background-color: gray;
+    border: #000000;
+    text-decoration: none;
+   }
+ 
+   .btn-primary:hover {
+   background-color: #000000;
+   }
+
+ 
